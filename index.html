@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do List</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer|Lobster|Lora" rel="stylesheet">
+  </head>
+
+  <body onload=fetchList()>
+
+    <div class="whole-app">
+      <div class="title">My To-do List</div>
+      <form id="todoForm" class="search-form">
+        <input type="text" class="item" placeholder="i.e. exercise, work on thesis, read book"><a class="glyphicon glyphicon-pencil" href="#"></a>
+      </form>
+      <div class="toDo"></div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

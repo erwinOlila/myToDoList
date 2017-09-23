@@ -1,0 +1,104 @@
+body {
+  background-color: #046877;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  font-size: 250%;
+  margin-left: -15px;
+  color: #28d8ef;
+}
+
+.whole-app {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 80px;
+  position: relative;
+  text-align: center;
+  width: 750px;
+
+}
+
+
+.item {
+  height: 40px;
+  width: 600px;
+  margin-bottom: 10px;
+}
+
+
+
+.task-item {
+  width: 580px;
+  min-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #12a2b7;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+.recolor {
+  background-color: #0aa89b;
+  opacity: 0.6;
+}
+
+input:focus {
+  border: 2px solid #28d8ef;
+}
+
+.pen-color {
+  color: green;
+}
+
+.task-name {
+  position: absolute;
+  font-family: 'IM Fell Great Primer', serif;
+  color: #10efc6;
+  width: 250px;
+  display: block;
+  margin-left: 180px;
+}
+
+.glyphicon-pencil {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 200%;
+  color: #28d8ef;
+}
+
+.toDo {
+  text-align: justify;
+  background: #0d5648;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 600px;
+  margin-left: 46px;
+  font-size: 17px;
+  border-radius: 15px;
+
+}
+
+.glyphicon-ok {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+a:hover {
+  color: #09ed09;
+}
+
+.added {
+  font-style: italic;
+  float: left;
+  font-family: 'Lora', serif;
+  color: #b4ede2;
+  font-size: 11px;
+  margin-left: 10px;
+  margin-top: 6px;
+  margin-right: 20px;
+
+}
